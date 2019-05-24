@@ -1,0 +1,13 @@
+[package]
+name = "analyzer-hal"
+version = "0.1.0"
+authors = ["Sascha Smolkov <sascha.smolkov@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+embedded-hal = { version = "0.2.3", features = ["unproven"] }
+nb = "0.1.2"
+
+
+[dev-dependencies]
+embedded-hal-mock = "0.6.0"
